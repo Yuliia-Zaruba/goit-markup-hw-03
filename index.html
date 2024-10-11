@@ -4,36 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway@700;:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
-        <ul class="header-navigation-list">
-          <li class="header-navigation-item">
-            <a class="header-navigation-link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-navigation-item"><a href="" class="header-navigation-link">Portfolio</a></li>
-          <li class="header-navigation-item">
-            <a class="header-navigation-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-contact-info">
-        <ul class="header-contact-list">
-          <li class="header-contact-item">
-            <a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
+          <ul class="header-navigation-list">
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-navigation-item"><a href="" class="header-navigation-link">Portfolio</a></li>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-contact-info">
+          <ul class="header-contact-list">
+            <li class="header-contact-item">
+              <a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="header-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -43,25 +55,27 @@
       </section>
 
       <section class="service">
-        <h2 class="service-heading">Service</h2>
-        <ul class="service-list">
-          <li class="service-item">
-            <h3 class="service-title">Strategy</h3>
-            <p class="service-description">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-          </li>
-          <li class="service-item">
-            <h3 class="service-title">Punctuality</h3>
-            <p class="service-description">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-          </li>
-          <li class="service-item">
-            <h3 class="service-title">Diligence</h3>
-            <p class="service-description">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-          </li>
-          <li class="service-item">
-            <h3 class="service-title">Technologies</h3>
-            <p class="service-description">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-          </li>
-        </ul>
+        <div class="service-container">
+          <h2 class="service-heading">Service</h2>
+          <ul class="service-list">
+            <li class="service-item">
+              <h3 class="service-title">Strategy</h3>
+              <p class="service-description">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+            </li>
+            <li class="service-item">
+              <h3 class="service-title">Punctuality</h3>
+              <p class="service-description">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            </li>
+            <li class="service-item">
+              <h3 class="service-title">Diligence</h3>
+              <p class="service-description">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+            </li>
+            <li class="service-item">
+              <h3 class="service-title">Technologies</h3>
+              <p class="service-description">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="team">
