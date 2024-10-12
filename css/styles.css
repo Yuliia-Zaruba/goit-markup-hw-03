@@ -229,7 +229,7 @@ img {
 }
 
 .team-section-title {
-  max-width: 162px;
+  /* max-width: 162px; */
   margin-bottom: 72px;
   align-items: center;
   font-weight: 700;
