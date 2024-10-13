@@ -207,9 +207,7 @@ img {
 }
 
 .team-section-title {
-  /* max-width: 162px; */
   margin-bottom: 72px;
-  /* align-items: center; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -221,8 +219,7 @@ img {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
-  /* align-items: center; */
+  gap: 24px;
 }
 
 .team-list-li {
