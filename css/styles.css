@@ -206,8 +206,14 @@ img {
   background-color: #f4f4fd;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-section-title {
   margin-bottom: 72px;
+  align-items: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -217,18 +223,13 @@ img {
   text-transform: capitalize;
 }
 
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
 .team-list-li {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
 }
 
-.team-container-two {
+.team-container {
   padding: 32px 0;
 }
 
