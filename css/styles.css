@@ -222,7 +222,7 @@ img {
 .team-list {
   display: flex;
   column-gap: 24px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .team-list-li {
@@ -232,13 +232,8 @@ img {
 }
 
 .team-container-two {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
-/* пример:.portfolio-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-} */
 
 .team-name {
   margin-bottom: 8px;
